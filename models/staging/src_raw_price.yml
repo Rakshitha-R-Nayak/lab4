@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_price
+    database: dedicatedpool
+    schema: dbo
+    tables:
+      - name: eia_price_raw

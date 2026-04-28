@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: dedicatedpool
+    schema: dbo
+    tables:
+      - name: target
